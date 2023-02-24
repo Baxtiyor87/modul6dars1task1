@@ -75,6 +75,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  get_version:
+    dependency: "direct main"
+    description:
+      name: get_version
+      sha256: "3e22742a2ccfcf1667e08effb76a6c1d8c8f6e86599c984638b307df7c21a8de"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.2"
   js:
     dependency: transitive
     description:
@@ -115,6 +123,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.0"
+  package_info:
+    dependency: transitive
+    description:
+      name: package_info
+      sha256: "131eac71f589d1f7c52794ebf300bfc0a52c88ea26a0c89f2bbd90935774b7d6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.3+4"
   path:
     dependency: transitive
     description:
@@ -186,3 +202,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=2.19.2 <3.0.0"
+  flutter: ">=1.12.13+hotfix.5"
